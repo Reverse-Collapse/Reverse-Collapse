@@ -1,0 +1,52 @@
+.detailHeader {
+    display: flex;
+    flex-direction: column;
+}
+.detailHeader .title {
+    color: #e8e8e8;
+    font-weight: 800;
+    font-size: 4.5rem;
+}
+.detailHeader .desc {
+    color: #d4d8dd;
+    font-size: 1.55rem;
+} 
+.detailHeader .banner {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 1.5rem 0;
+}
+.detailHeader .banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.detailBody p {
+    color: #d4d8dd;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    margin: 0;
+}
+.detailBody ol,
+.detailBody ul {
+    color: #d4d8dd;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}
+.detailBody li {
+    margin-bottom: .1rem;
+}
+.detailBody a {
+    color: #ffd300;
+    font-weight: 600;
+}
+.detailBody img {
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem 0;
+    border-radius: 2rem;
+}
